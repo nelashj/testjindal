@@ -1,0 +1,22 @@
+var fd2 = new FormData();
+$.each($("input[type=file]"), function(i, obj) {
+	console.log("**********i"+i)
+    $.each(obj.files,function(j, file){
+	console.log("####"+j)
+    	fd2.append('files['+i+']', file);
+    })
+});
+var car = {name:"nelash1", lastname:"500"};
+fd2.append("name1","nelash22");
+fd2.append("class1.name","nelash11");
+fd2.append("class1.lastname","jindal");
+$.ajax({
+  url: '/save',
+  data: fd2,
+  processData: false,
+  contentType: false,
+  type: 'POST',
+  success: function(data){
+    alert(data);
+  }
+});
