@@ -20,3 +20,38 @@ $.ajax({
     alert(data);
   }
 });
+
+
+ @RequestMapping(value = "/save", method = RequestMethod.POST)
+		public String save(
+				@ModelAttribute FileUploadForm uploadForm,
+						Model map, HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws IOException {
+			
+			List<MultipartFile> files = uploadForm.getFiles();
+			System.out.println("***"+files.size());
+			List<String> fileNames = new ArrayList<String>();
+			
+			if(null != files && files.size() > 0) {
+				for (MultipartFile multipartFile : files) {
+
+					String fileName = multipartFile.getOriginalFilename();
+					fileNames.add(fileName);
+					System.out.println("***"+fileName);
+					//System.out.println(multipartFile.getInputStream().read(new byte[2048]));
+					//byte b[]=new byte[2048];
+					String line;
+					BufferedReader bufferedInputStream= new BufferedReader(new InputStreamReader(multipartFile.getInputStream()));
+					BufferedWriter bufferedOutputStream= new BufferedWriter(new FileWriter(new File("C:\\Personal\\"+fileName)));
+					while((line=bufferedInputStream.readLine())!=null){
+						bufferedOutputStream.write(line);
+					}
+					bufferedOutputStream.close();
+					//Handle file content - multipartFile.getInputStream()
+				}
+			}
+			System.out.println("**"+uploadForm.getName1());
+			System.out.println("**"+uploadForm.getClass1().getLastname());
+			System.out.println("**"+uploadForm.getClass1().getName());
+			map.addAttribute("files", fileNames);
+			return "file_upload_success.jsp";
+		}
