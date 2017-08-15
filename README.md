@@ -27,3 +27,7 @@
 </IfModule>
 
 https://stackoverflow.com/questions/11874017/controlling-a-project-with-maven-and-spring-how-to-set-spring-config-file-using
+
+https://stackoverflow.com/questions/15320863/reading-properties-file
+
+https://stackoverflow.com/questions/20348657/cannot-load-properties-file-from-resources-directory
