@@ -25,3 +25,5 @@
   ExpiresByType application/x-javascript "access plus 60 minutes"
   ExpiresByType text/xml "access plus 60 minutes"
 </IfModule>
+
+https://stackoverflow.com/questions/11874017/controlling-a-project-with-maven-and-spring-how-to-set-spring-config-file-using
