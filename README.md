@@ -31,3 +31,5 @@ https://stackoverflow.com/questions/11874017/controlling-a-project-with-maven-an
 https://stackoverflow.com/questions/15320863/reading-properties-file
 
 https://stackoverflow.com/questions/20348657/cannot-load-properties-file-from-resources-directory
+
+https://stackoverflow.com/questions/18887636/how-to-record-phone-calls-in-android
