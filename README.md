@@ -33,3 +33,5 @@ https://stackoverflow.com/questions/15320863/reading-properties-file
 https://stackoverflow.com/questions/20348657/cannot-load-properties-file-from-resources-directory
 
 https://stackoverflow.com/questions/18887636/how-to-record-phone-calls-in-android
+
+http://devzone.co.in/remember-functionality-signinlogin-form-using-html5-jquery/
