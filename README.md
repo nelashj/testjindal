@@ -35,3 +35,9 @@ https://stackoverflow.com/questions/20348657/cannot-load-properties-file-from-re
 https://stackoverflow.com/questions/18887636/how-to-record-phone-calls-in-android
 
 http://devzone.co.in/remember-functionality-signinlogin-form-using-html5-jquery/
+
+http://eagle.phys.utk.edu/guidry/android/simpleDialer.html
+
+https://android.googlesource.com/platform/packages/apps/Dialer/+/android-4.3_r1/res/layout/dialpad_fragment.xml
+
+https://android.googlesource.com/platform/packages/apps/Dialer/+/7b49a0460e356a49d78c6c4d6a751cd479a840fb/res/layout/dialpad.xml
