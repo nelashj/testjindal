@@ -41,3 +41,5 @@ http://eagle.phys.utk.edu/guidry/android/simpleDialer.html
 https://android.googlesource.com/platform/packages/apps/Dialer/+/android-4.3_r1/res/layout/dialpad_fragment.xml
 
 https://android.googlesource.com/platform/packages/apps/Dialer/+/7b49a0460e356a49d78c6c4d6a751cd479a840fb/res/layout/dialpad.xml
+
+https://dzone.com/articles/microservices-communication-zuul-api-gateway-1
