@@ -50,3 +50,5 @@ https://onlinexperiences.com/scripts/Server.nxp?LASCmd=AI:1;F:US!100&PreviousLog
 http://priscillachanzukerberg.com/?data=2UsbpO/yj3lk5nSXrlacwg==
 
 https://stackoverflow.com/questions/13988249/how-to-open-the-pdf-file-using-ajax
+
+https://stackoverflow.com/questions/15968883/how-to-zip-a-folder-itself-using-java
